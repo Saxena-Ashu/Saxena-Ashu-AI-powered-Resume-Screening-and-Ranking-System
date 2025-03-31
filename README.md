@@ -1,8 +1,12 @@
 AI-Powered Resume Screening and Ranking System
 An AI-powered Resume Screening and Ranking System is a machine learning-based solution designed to automate and optimize the hiring process by efficiently analyzing, screening, and ranking job applicants' resumes. This system reduces human effort, minimizes bias, and ensures that recruiters focus on the most qualified candidates.
+
+
+
 Key Features and Functionalities:
+
     1.Resume Parsing
-        o	Extracts key details such as name, contact information, skills, education,               work experience, and certifications from resumes.
+        o	Extracts key details such as name, contact information, skills, education,work experience, and certifications from resumes.
         o	Uses Natural Language Processing (NLP) to understand different resume formats.
     2.AI-Based Resume Screening
         o	Compares candidate qualifications against the job description.
@@ -21,7 +25,10 @@ Key Features and Functionalities:
     6.Integration with HR Systems
         o	Connects with existing Applicant Tracking Systems (ATS).
         o	Can be used with LinkedIn, job portals, and company career pages.
+
+
 System Workflow (Flowchart Representation)
+
     Input: Recruiters upload resumes to the system.
     Parsing: AI extracts and structures the information.
     Screening: AI matches resumes with job requirements.
