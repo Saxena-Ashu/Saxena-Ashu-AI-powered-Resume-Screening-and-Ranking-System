@@ -1,0 +1,64 @@
+[
+  {
+    "job_title": "Project Manager",
+    "description": "Manage projects using scrum and agile methodologies, lead teams and handle management responsibilities.",
+    "skills": ["management", "scrum", "agile"],
+    "education": ["bachelor", "degree", "management"],
+    "experience": ["management", "lead", "project"]
+  },
+  {
+    "job_title": "Data Scientist",
+    "description": "Use python, machine learning, pandas and numpy to analyze data and build ML models.",
+    "skills": ["python", "machine learning", "pandas", "numpy"],
+    "education": ["bachelor", "master", "degree"],
+    "experience": ["data analysis", "project", "develop"]
+  },
+  {
+    "job_title": "Front-End Developer",
+    "description": "Develop front-end applications using html, css, javascript, react and frontend frameworks.",
+    "skills": ["html", "css", "javascript", "react"],
+    "education": ["bachelor", "degree", "computer science"],
+    "experience": ["frontend", "project", "develop"]
+  },
+  {
+    "job_title": "Back-End Developer",
+    "description": "Build backend APIs using node, express, database and api management.",
+    "skills": ["node", "express", "database", "api"],
+    "education": ["bachelor", "degree", "computer science"],
+    "experience": ["backend", "project", "develop"]
+  }
+,
+  {
+  "job_title": "Aircraft Structures Engineer",
+  "description": "Design and analyze aircraft structural components such as fuselage, wings, empennage. Perform FEA, static, fatigue and buckling analysis. Collaborate across systems teams and ensure DFM, tooling feasibility.",
+  "skills": ["FEA", "Ansys", "HyperMesh", "NASTRAN", "static analysis", "fatigue analysis", "buckling", "composites", "DFM", "aircraft structures"],
+  "experience": ["aircraft structural analysis", "aeromodelling", "design of aircraft components", "finite element analysis"],
+  "education": ["bachelor", "aerospace engineering", "master"]
+}
+,
+{
+  "job_title": "Robotics Simulation Engineer",
+  "description": "Execute robotics simulations, model dynamic systems using MATLAB/Simulink, perform real-time HIL/MIL/SIL simulations, validate models, and support R&D with robotic systems design.",
+  "skills": [
+  "python", "matlab", "simulink", "embedded c", "c++", "system modeling", 
+  "real-time simulation", "simulation", "hil", "mil", "sil", 
+  "automation studio", "unity 3d", "azure", "debugging", "control systems",
+  "controllers", "pid", "kinematics", "dynamics"
+],
+  "education": ["bachelor", "mechatronics engineering", "robotics engineering", "aerospace engineering", "master"],
+  "experience": [
+    "robotics simulation", "drone design", "autonomous systems", "control systems", 
+    "subsea operations", "system validation", "real-time systems", "uav projects", 
+    "rc plane design", "matlab projects"
+  ]
+}
+,
+{
+  "job_title": "Aircraft Structures Engineer",
+  "description": "Design and analyze aircraft structural components such as fuselage, wings, empennage. Perform FEA, static, fatigue and buckling analysis. Collaborate across systems teams and ensure DFM, tooling feasibility.",
+  "skills": ["stress analysis", "static analysis", "fatigue", "buckling", "FEA", "ANSYS", "HyperMesh", "NASTRAN", "composites", "DFM"],
+  "experience": ["aircraft structural design", "FEA", "hand calculations", "composite analysis", "DFM evaluation", "loads calculation", "crashworthiness", "certification exposure", "impact loads", "aircraft structure testing"],
+  "education": ["bachelor", "aerospace engineering", "master"]
+}
+
+]
