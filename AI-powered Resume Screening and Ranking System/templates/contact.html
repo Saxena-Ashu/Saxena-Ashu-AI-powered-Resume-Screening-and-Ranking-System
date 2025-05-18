@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background: radial-gradient(circle at top left, #1f1c2c, #302b63, #24243e);
+            background-attachment: fixed;
+            background-size: cover;
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: -20%;
+            left: -20%;
+            width: 150%;
+            height: 150%;
+            background: radial-gradient(circle at 30% 30%, rgba(0, 255, 255, 0.06), transparent 60%),
+                        radial-gradient(circle at 70% 70%, rgba(255, 0, 255, 0.05), transparent 60%);
+            z-index: -1;
+            pointer-events: none;
+            filter: blur(80px);
+        }
+
+        .header {
+            position: fixed;
+            top: 15px;
+            left: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .time {
+            position: fixed;
+            top: 15px;
+            right: 20px;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .dynamic-island {
+            position: fixed;
+            top: 40px;
+            width: 140px;
+            height: 40px;
+            background: rgba(40, 40, 60, 0.9);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 15px;
+            transition: all 0.4s ease-in-out;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(12px);
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .dynamic-island:hover {
+            width: 360px;
+            height: 50px;
+            background: rgba(60, 60, 90, 0.95);
+        }
+
+        .dynamic-island ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .dynamic-island:hover ul {
+            opacity: 1;
+        }
+
+        .dynamic-island ul li {
+            font-size: 14px;
+            color: white;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .dynamic-island ul li:hover {
+            color: #1e90ff;
+        }
+
+        .contact-info {
+            margin-top: 120px;
+            font-size: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px 25px;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0px 0px 18px rgba(255, 255, 255, 0.1);
+            max-width: 600px;
+        }
+
+        .contact-info h1 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        .contact-info p {
+            margin: 12px 0;
+            color: #ddd;
+        }
+
+        .contact-info a {
+            color: #1e90ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            color: #ff6b6b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">ASHU</div>
+    <div class="time" id="current-time">12:00 AM</div>
+
+    <!-- Main Dynamic Island -->
+    <div class="dynamic-island">
+        <i class="fas fa-circle-notch"></i>
+        <ul>
+            <li><a href="{{ url_for('home') }}" style="text-decoration: none; color: white;">Home</a></li>
+            <li><a href="{{ url_for('about') }}" style="text-decoration: none; color: white;">About</a></li>
+            <li><a href="{{ url_for('contact') }}" style="text-decoration: none; color: white;">Contact</a></li>
+            <li><a href="{{ url_for('ai_resume_screening') }}" style="text-decoration: none; color: white;">AI</a></li>
+        </ul>
+    </div>
+
+    <div class="contact-info">
+        <h1>Contact Information</h1>
+        <p><strong>Phone No:</strong> 8439364075</p>
+        <p><strong>Email ID:</strong> <a href="mailto:ashusaxena4767@gmail.com">ashusaxena4767@gmail.com</a></p>
+    </div>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            document.getElementById("current-time").innerText = now.toLocaleTimeString();
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
+
+</body>
+</html>
