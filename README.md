@@ -37,5 +37,5 @@ System Workflow (Flowchart Representation)
 
 🌐 Live Demo
 👉 Check it out here
-([Replace with your actual deployment URL](https://saxena-ashu-ai-powered-resume-screening-2zbg.onrender.com))
+((https://saxena-ashu-ai-powered-resume-screening-2zbg.onrender.com))
 ![image](https://github.com/user-attachments/assets/1c66cfc4-86b6-4c4f-ac01-3229b15b9627)
