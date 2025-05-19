@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/1c66cfc4-86b6-4c4f-ac01-3229b15b9627)
+![image](https://github.com/user-attachments/assets/e2bb6e14-596e-4b9a-8d34-467fae1fb222)
+![image](https://github.com/user-attachments/assets/8f1cf7bc-6f0e-4ae6-a0d9-d1440e6feb2c)
+
 AI-Powered Resume Screening and Ranking System
 An AI-powered Resume Screening and Ranking System is a machine learning-based solution designed to automate and optimize the hiring process by efficiently analyzing, screening, and ranking job applicants' resumes. This system reduces human effort, minimizes bias, and ensures that recruiters focus on the most qualified candidates.
 
