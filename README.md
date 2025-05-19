@@ -1,6 +1,3 @@
-![image](https://github.com/user-attachments/assets/1c66cfc4-86b6-4c4f-ac01-3229b15b9627)
-
-
 AI-Powered Resume Screening and Ranking System
 An AI-powered Resume Screening and Ranking System is a machine learning-based solution designed to automate and optimize the hiring process by efficiently analyzing, screening, and ranking job applicants' resumes. This system reduces human effort, minimizes bias, and ensures that recruiters focus on the most qualified candidates.
 
@@ -37,3 +34,8 @@ System Workflow (Flowchart Representation)
     Screening: AI matches resumes with job requirements.
     Scoring & Ranking: Candidates are ranked based on scores.
     Final Selection: Recruiters review the top candidates.
+
+🌐 Live Demo
+👉 Check it out here
+([Replace with your actual deployment URL](https://saxena-ashu-ai-powered-resume-screening-2zbg.onrender.com))
+![image](https://github.com/user-attachments/assets/1c66cfc4-86b6-4c4f-ac01-3229b15b9627)
